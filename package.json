@@ -1,0 +1,22 @@
+{
+	"name": "router",
+	"description": "router",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"start": "webpack-dev-server --open"
+	},
+	"devDependencies": {
+		"clean-webpack-plugin": "4.0.0",
+		"copy-webpack-plugin": "5.0.4",
+		"html-webpack-plugin": "3.2.0",
+		"webpack": "4.39.3",
+		"webpack-cli": "3.3.7",
+		"webpack-dev-server": "3.8.0",
+		"write-file-webpack-plugin": "4.5.1"
+	},
+	"dependencies": {
+		"axios": "0.20.0",
+		"single-spa": "5.9.2"
+	}
+}
