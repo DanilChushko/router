@@ -9,12 +9,15 @@ sessionService.setAuthState(true);
 const apps = [{
 	id: 'home',
 	path: 'http://localhost:4401/'
+}, {
+	id: 'orders',
+	path: 'http://localhost:4402/'
 }];
 
 apps.forEach((app) => registerApplication({
 	name: app.id,
 	app: () => modulesService.getApplicationModule(app.path),
-	activeWhen: () => true,
+	activeWhen: (location) => location.pathname.startsWith(`/${app.id}`),
 	customProps: () => ({
 		data: {
 			sessionService

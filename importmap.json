@@ -1,6 +1,7 @@
 {
 	"imports": {
 		"home": "http://localhost:4401/",
+		"orders": "http://localhost:4402/",
 		"vue": "https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.31/vue.global.prod.min.js",
 		"single-spa-vue": "https://cdn.jsdelivr.net/npm/single-spa-vue@2.5.1/dist/umd/single-spa-vue.min.js"
 	}
