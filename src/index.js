@@ -4,7 +4,6 @@ import ModulesService from './services/modules-service'
 
 const modulesService = new ModulesService();
 const sessionService = new SessionService();
-sessionService.setAuthState(true);
 
 const apps = [{
 	id: 'home',
